@@ -1,0 +1,1 @@
+SELECT p.id, p.name, sum(s.qty) balance,t.name TrasType FROM `core_stocks` s, core_transaction_types t,core_products p where p.id=s.product_id and t.id=s.transaction_type_id group by product_id;

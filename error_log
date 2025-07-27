@@ -1,0 +1,272 @@
+[07-May-2025 23:47:41 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 2097152 bytes) (tried to allocate 65536 bytes) in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Common\division.model.php on line 13
+[07-May-2025 23:47:50 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 2097152 bytes) (tried to allocate 65536 bytes) in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Common\division.model.php on line 13
+[15-May-2025 11:48:18 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\configs\db.config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\configs\db.config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\core.php(6): include('...')
+#2 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(1): require_once('...')
+#3 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\configs\db.config.php on line 16
+[15-May-2025 11:48:25 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\configs\db.config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\configs\db.config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\core.php(6): include('...')
+#2 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(1): require_once('...')
+#3 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\configs\db.config.php on line 16
+[15-May-2025 11:52:48 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\configs\db.config.php:16
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\configs\db.config.php(16): mysqli->__construct()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\core.php(6): include('...')
+#2 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(1): require_once('...')
+#3 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\configs\db.config.php on line 16
+[06-Jul-2025 20:25:10 Asia/Dhaka] PHP Fatal error:  Out of memory (allocated 2097152 bytes) (tried to allocate 65536 bytes) in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\CRM\contact.model.php on line 9
+[07-Jul-2025 22:20:31 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'qty' in 'field list' in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php:124
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php(124): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\pages\Production\mfgproduction\index.php(8): MfgProduction::html_table()
+#2 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\core.php(44): include_once('...')
+#3 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\controllers\production\MfgProductionController.php(7): Controller->view()
+#4 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\route.php(94): MfgProductionController->index()
+#5 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\layouts\elysianFabrics\main_content.php(2): include('...')
+#6 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\helpers\route.helper.php(92): include_once('...')
+#7 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\layouts\elysianFabrics\master.php(6): section()
+#8 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\helpers\route.helper.php(92): include_once('...')
+#9 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\home.php(7): section()
+#10 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php on line 124
+[07-Jul-2025 22:20:40 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'qty' in 'field list' in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php:124
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php(124): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\pages\Production\mfgproduction\index.php(8): MfgProduction::html_table()
+#2 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\core.php(44): include_once('...')
+#3 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\controllers\production\MfgProductionController.php(7): Controller->view()
+#4 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\route.php(94): MfgProductionController->index()
+#5 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\layouts\elysianFabrics\main_content.php(2): include('...')
+#6 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\helpers\route.helper.php(92): include_once('...')
+#7 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\layouts\elysianFabrics\master.php(6): section()
+#8 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\helpers\route.helper.php(92): include_once('...')
+#9 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\home.php(7): section()
+#10 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php on line 124
+[13-Jul-2025 11:55:54 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'qty' in 'field list' in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php:124
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php(124): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\pages\Production\mfgproduction\index.php(8): MfgProduction::html_table()
+#2 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\core.php(44): include_once('...')
+#3 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\controllers\production\MfgProductionController.php(7): Controller->view()
+#4 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\route.php(94): MfgProductionController->index()
+#5 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\layouts\elysianFabrics\main_content.php(2): include('...')
+#6 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\helpers\route.helper.php(92): include_once('...')
+#7 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\layouts\elysianFabrics\master.php(6): section()
+#8 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\helpers\route.helper.php(92): include_once('...')
+#9 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\home.php(7): section()
+#10 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php on line 124
+[13-Jul-2025 11:57:21 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'qty' in 'field list' in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php:124
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php(124): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\pages\Production\mfgproduction\index.php(8): MfgProduction::html_table()
+#2 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\core.php(44): include_once('...')
+#3 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\controllers\production\MfgProductionController.php(7): Controller->view()
+#4 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\route.php(94): MfgProductionController->index()
+#5 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\layouts\elysianFabrics\main_content.php(2): include('...')
+#6 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\helpers\route.helper.php(92): include_once('...')
+#7 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\views\layouts\elysianFabrics\master.php(6): section()
+#8 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\helpers\route.helper.php(92): include_once('...')
+#9 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\home.php(7): section()
+#10 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\models\Production\mfgproduction.model.php on line 124
+[15-Jul-2025 09:11:17 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:11:26 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:11:55 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:12:09 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:12:23 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:12:37 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:13:14 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:13:52 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:13:56 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:13:59 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:14:07 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:14:14 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:14:43 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:15:23 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:15:37 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:16:01 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:18:23 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:20:46 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 09:20:49 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[15-Jul-2025 10:13:30 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[16-Jul-2025 09:05:47 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[16-Jul-2025 10:16:02 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[16-Jul-2025 10:16:09 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[16-Jul-2025 10:16:16 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[17-Jul-2025 12:39:16 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[18-Jul-2025 17:39:59 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[18-Jul-2025 17:40:02 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[20-Jul-2025 23:13:10 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[23-Jul-2025 18:26:59 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[23-Jul-2025 18:27:05 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[27-Jul-2025 10:39:18 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
+[27-Jul-2025 10:39:26 Asia/Dhaka] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'wdpf63_naiyem.core_users' doesn't exist in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php:12
+Stack trace:
+#0 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php(12): mysqli->query()
+#1 D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\index.php(3): include('...')
+#2 {main}
+  thrown in D:\webserver\www\student\round63\naiyem\Projects\core\core_elysianFabrics\auth.php on line 12
